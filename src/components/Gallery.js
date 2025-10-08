@@ -55,7 +55,7 @@ const Slide = () => {
         }
       `}</style>
 
-      <section className="slide-section text-center">
+      <section className="slide-section text-center" id="gallery">
         <div className="container">
           <h2 className="fw-bold mb-2 text-uppercase ">Our Gallery</h2>
           <p className="mb-5 fs-5">
