@@ -1,0 +1,88 @@
+/* 🌑 Background Section */
+.contact-dark-section {
+  background: #111217;
+  padding: 80px 20px;
+}
+
+/* 🃏 Card Layout */
+.contact-card {
+  background: #1d1f25;
+}
+
+/* ✍️ Left Form Side */
+.contact-form-dark {
+  background: #1d1f25;
+}
+
+.contact-form-dark h4 {
+  font-size: 1.5rem;
+}
+
+.form-dark {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #444;
+  border-radius: 0;
+  color: #fff;
+  font-size: 0.95rem;
+  padding: 10px 0;
+}
+
+.form-dark:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #ffc107;
+  background: transparent;
+  color: #fff;
+}
+
+.form-dark::placeholder {
+  color: #aaa;
+}
+
+/* 📨 Button */
+.btn-warning {
+  background: #ffc107;
+  border: none;
+  transition: background 0.3s;
+}
+
+.btn-warning:hover {
+  background: #e0a800;
+}
+
+/* 🏢 Right Info Side */
+.contact-info-dark {
+  background: #191b21;
+  color: #fff;
+}
+
+.contact-info-dark h4 {
+  font-size: 1.5rem;
+}
+
+.contact-info-dark i {
+  min-width: 30px;
+  text-align: center;
+}
+
+/* 🧭 Responsive */
+@media (max-width: 992px) {
+  .contact-card {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-dark-section {
+    padding: 60px 15px;
+  }
+
+  .contact-form-dark, .contact-info-dark {
+    padding: 30px 20px;
+  }
+
+  .form-dark {
+    font-size: 0.9rem;
+  }
+}

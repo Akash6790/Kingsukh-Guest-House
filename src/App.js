@@ -6,7 +6,8 @@ import Rooms from './components/Rooms';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
-
+import Map from './components/Map';
+import Footer from './components/Footer'
 function App() {
   return (
     <>
@@ -17,6 +18,8 @@ function App() {
       <Services/>
     <Gallery/>
      <Contact/> 
+     <Map/>
+     <Footer/>
     </>
   );
 }

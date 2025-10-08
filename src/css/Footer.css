@@ -1,0 +1,53 @@
+.footer-section {
+  background: #1b1b1b;
+  color: #f1f1f1;
+}
+
+.footer-section h4,
+.footer-section h6 {
+  color: #ffffff;
+}
+
+.footer-text {
+  line-height: 1.6;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links li a {
+  color: #bdbdbd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #ffffff;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #f1f1f1;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+  .social-icons a {
+    margin-right: 10px;
+  }
+}

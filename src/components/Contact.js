@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import "../css/Contact.css";
 
 function Contact() {
   return (
@@ -11,7 +12,11 @@ function Contact() {
           We’d love to hear from you. Get in touch for bookings, questions, or special requests.
         </p>
 
-        <div className="row g-5">
+        <div
+          className="row g-0 shadow rounded overflow-hidden mb-5"
+          style={{
+            background: "linear-gradient(135deg, #eceff4 0%, #bfd8e4 100%)",
+          }}>
           {/* Left Side - Contact Info */}
           <div className="col-lg-5">
             <div className="contact-info p-4 rounded shadow-sm h-100">
