@@ -21,9 +21,10 @@ function Contact() {
               <p><i className="bi bi-envelope-fill text-primary me-2"></i> info@yourhotel.com</p>
               <p><i className="bi bi-clock-fill text-primary me-2"></i> Open 24/7</p>
               <div className="mt-3">
-                <a href="#" className="me-3 text-primary fs-4"><i className="bi bi-facebook"></i></a>
-                <a href="#" className="me-3 text-primary fs-4"><i className="bi bi-instagram"></i></a>
-                <a href="#" className="me-3 text-primary fs-4"><i className="bi bi-twitter-x"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+
               </div>
             </div>
           </div>
