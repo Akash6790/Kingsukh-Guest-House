@@ -5,7 +5,7 @@ import "../css/Contact.css";
 
 function Contact() {
   return (
-    <section className="contact-section py-5" id="contact">
+    <section className="contact-section py-5 " id="contact">
       <div className="container">
         <h2 className="fw-bold text-center mb-4 text-uppercase">Contact Us</h2>
         <p className="text-center text-muted mb-5 fs-5">
