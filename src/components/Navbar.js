@@ -46,7 +46,7 @@ function Navbar() {
         />
         <a
           className="navbar-brand text-white ms-3"
-          href="#home"
+          href="/home"
           style={{ fontSize: '25px', fontWeight: '400' }}
         >
           Akash_Guest_House
@@ -57,7 +57,7 @@ function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+          data-bs-target="/navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -71,32 +71,32 @@ function Navbar() {
             style={{ fontSize: '18px', gap: '10px' }}
           >
             <li className="nav-item">
-              <a className="nav-link text-white" href="#home">
+              <a className="nav-link text-white" href="/home">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#about">
+              <a className="nav-link text-white" href="/about">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#services">
+              <a className="nav-link text-white" href="/services">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#rooms">
+              <a className="nav-link text-white" href="/rooms">
                 Rooms
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#gallery">
+              <a className="nav-link text-white" href="/gallery">
                 Gallery
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#contact">
+              <a className="nav-link text-white" href="/contact">
                 Contact
               </a>
             </li>
